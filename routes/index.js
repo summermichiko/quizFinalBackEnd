@@ -3,26 +3,26 @@ var router = express.Router();
 
 var quiz = [
 	{
-		"q": "Who is the best ping pong player at FSA?", 
-		'options': [{ 'value': "Mike"} , { 'value': "Eddie"} , {'value' : "Nimit"} , { 'value': "Patrick"}],
-		'answer': "Nimit", 
+		"q": "What continent has the fewest flowering plants?", 
+		'options': [{ 'value': "Africa"} , { 'value': "Australia"} , {'value' : "Antarctica"} , { 'value': "North America"}],
+		'answer': "Antarctica", 
 		'difficulty': 5
 		},
-		{ "q": "Which robot name was chanted during Lego Mindstorms?", 
-		'options':[{ 'value': 'infiniteLoop'} , { 'value': 'noHope.js'} , {'value' : 'johnny5'} , { 'value': 'none of the above'}], 
-		'answer':'noHope.js',
+		{ "q": "What was the first planet to be discovered using the telescope in 1781??", 
+		'options':[{ 'value': 'Mars'} , { 'value': 'Uranus'} , {'value' : 'Pluto'} , { 'value': 'none of the above'}], 
+		'answer':'Uranus',
 		'difficulty': 2
 		},
 		{ 
-		'q': "Out of the following frontend frameworks, which framework is most rails-like?", 
-		'options':[{ 'value': 'Ember.js'} ,{ 'value': 'Angular.js'} , {'value' : 'Backbone.js'} , { 'value': 'Meteor.js'}], 
-		'answer':'Ember.js',
+		'q': "What is the diamete of Earth?", 
+		'options':[{ 'value': '5,000 miles'} ,{ 'value': '3,500 miles'} , {'value' : '10,000 miles'} , { 'value': '8,000 miles'}], 
+		'answer':'8,000 miles',
 		'difficulty': 6
 		},
 		{ 
-		'q': "Which project used a local data store?", 
-		'options':[{ 'value': 'TripPlanner'} ,{ 'value': 'Twitter.js'} , {'value' : 'WikiWalker'} , { 'value': 'WikiStack'}], 
-		'answer':'Twitter.js',
+		'q': "Someone who suffers from oneirophobia is scared of what?", 
+		'options':[{ 'value': 'Dreams'} ,{ 'value': 'Light'} , {'value' : 'technology'} , { 'value': 'plants'}], 
+		'answer':'Dreams',
 		'difficulty': 1
 		}
 	];
